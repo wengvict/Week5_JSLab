@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Calculator</title> 
+  
+</head>
+
+<body>
+
+  <html>
+<body>
+
+	<form name="mathform">
+  	Enter first number: <input type ="number" id="num1">
+	<br><br>
+	Enter second number: <input type="number" id="num2">
+	<br><br>
+		
+	<input type="radio" name="operation" id="add">Add 
+	<input type="radio" name="operation" id="subtract">Subtract 
+	<input type="radio" name="operation" id="multiply">Multiply 
+	<input type="radio" name="operation" id="divide">Divide  <br><br>
+	
+	<input type="button" onclick="math()" value="Submit"/> 
+
+	<p id="result"></p>
+	</form>
+
+	<script src="js/index.js"></script>
+
+</body>
+
+</html>
